@@ -1,0 +1,48 @@
+INSERT INTO m_penyakit (kode, nama, deskripsi, solusi, created_by)
+VALUES
+('P-1', 'Insomnia', 'Gangguan tidur yang menyebabkan kesulitan untuk tidur atau tetap tidur.', '', 1),
+('P-2', 'Hypersomnia', 'Kondisi tidur berlebihan atau rasa kantuk berlebihan di siang hari.', '', 1),
+('P-3', 'Bruxism', 'Gangguan tidur yang ditandai dengan menggertakkan atau menggesekkan gigi saat tidur.', '', 1),
+('P-4', 'Obstructive Sleep Apnea Hypopnea', 'Gangguan pernapasan saat tidur yang menyebabkan napas terhenti sementara.', '', 1),
+('P-5', 'Narcolepsy', 'Gangguan neurologis yang memengaruhi kendali atas bangun dan tidur.', '', 1),
+('P-6', 'Nightmare', 'Mimpi buruk yang intens dan menyebabkan ketakutan serta gangguan tidur.', '', 1),
+('P-7', 'Retsless Leg Syndrome (RLS)', 'Keinginan tak terkendali untuk menggerakkan kaki disertai sensasi tidak nyaman.', '', 1),
+('P-8', 'Rapid Eye Movement Sleep Behavior', 'Gangguan tidur yang menyebabkan seseorang bergerak atau berbicara saat mimpi REM.', '', 1),
+('P-9', 'Circadian Rhythm Sleep-Wake', 'Gangguan yang memengaruhi jam biologis tubuh sehingga pola tidur menjadi tidak teratur.', '', 1);
+
+
+INSERT INTO m_gejala (kode, nama, deskripsi, created_by)
+VALUES
+('G-01', 'Kesulitan Tidur Malam', 'Kesulitan untuk tidur saat malam hari.', 1),
+('G-02', 'Terbangun Dini', 'Terbangun terlalu dini dan tidak dapat kembali tidur.', 1),
+('G-03', 'Tidur Tidak Nyenyak', 'Tidur yang tidak nyenyak atau merasa tidak segar setelah bangun.', 1),
+('G-04', 'Mengantuk di Siang Hari', 'Merasa sangat mengantuk di siang hari meskipun tidur cukup.', 1),
+('G-05', 'Kesulitan Bangun Pagi', 'Kesulitan untuk bangun di pagi hari, sering kali merasa bingung atau lesu.', 1),
+('G-06', 'Tidur Berlebihan', 'Tidur berlebihan di siang hari, bahkan saat melakukan aktivitas.', 1),
+('G-07', 'Kelelahan Berkepanjangan', 'Kelelahan yang berkepanjangan meskipun sudah tidur.', 1),
+('G-08', 'Bruxism - Suara', 'Menggertakkan atau menggesekkan gigi saat tidur, yang dapat terdengar oleh pasangan tidur.', 1),
+('G-09', 'Nyeri Rahang', 'Nyeri atau ketegangan pada rahang, leher, atau kepala.', 1),
+('G-10', 'Kerusakan Gigi', 'Kerusakan pada gigi, seperti pengikisan enamel atau gigi retak.', 1),
+('G-11', 'Sakit Kepala Tidur', 'Sakit kepala, terutama di area pelipis atau belakang kepala.', 1),
+('G-12', 'Sleep Apnea', 'Berhenti bernapas sementara saat tidur, yang sering disertai dengan terbangun mendadak.', 1),
+('G-13', 'Dengkuran Tidak Teratur', 'Dengkuran yang keras dan tidak teratur.', 1),
+('G-14', 'Sakit Kepala Pagi', 'Sakit kepala di pagi hari.', 1),
+('G-15', 'Serangan Tidur Mendadak', 'Serangan tidur mendadak yang tidak terkendali di siang hari.', 1),
+('G-16', 'Cataplexy', 'Kehilangan tonus otot (cataplexy) yang dapat dipicu oleh emosi.', 1),
+('G-17', 'Halusinasi Saat Tidur', 'Halusinasi saat tertidur atau terbangun.', 1),
+('G-18', 'Tidur Malam Terganggu', 'Tidur malam yang terganggu.', 1),
+('G-19', 'Terbangun dengan Ketakutan', 'Terbangun dengan ketakutan.', 1),
+('G-20', 'Mimpi Buruk Jelas', 'Ingat dengan jelas detail mimpi buruk.', 1),
+('G-21', 'Kesulitan Tidur Ulang', 'Kesulitan kembali tidur setelah mimpi buruk.', 1),
+('G-22', 'Detak Jantung Cepat Saat Tidur', 'Keringat dingin atau detak jantung cepat saat mimpi buruk.', 1),
+('G-23', 'Ingin Gerakkan Kaki', 'Keinginan yang kuat untuk menggerakkan kaki, terutama saat berbaring atau duduk.', 1),
+('G-24', 'Sensasi Tidak Nyaman di Kaki', 'Sensasi tidak nyaman pada kaki, seperti rasa gatal, kesemutan, atau nyeri.', 1),
+('G-25', 'Gejala Memburuk di Malam Hari', 'Gejala yang memburuk di malam hari atau saat istirahat.', 1),
+('G-26', 'Sulit Tidur karena Ketidaknyamanan', 'Kesulitan untuk tidur akibat ketidaknyamanan.', 1),
+('G-27', 'Gerakan Saat Tidur', 'Bergerak saat tidur seperti menendang, memukul, atau mengayunkan tangan dan kaki.', 1),
+('G-28', 'Berteriak atau Bicara Saat Tidur', 'Berteriak, tertawa, atau bicara dalam tidur.', 1),
+('G-29', 'Mimpi Nyata dan Menegangkan', 'Mimpi yang terasa nyata dan menegangkan.', 1),
+('G-30', 'Sulit Dibangunkan saat Mimpi', 'Sulit dibangunkan saat mimpi berlangsung, tapi bisa mengingat mimpinya.', 1),
+('G-31', 'Pola Tidur Tidak Selaras', 'Pola tidur yang tidak selaras dengan jam biologis tubuh.', 1),
+('G-32', 'Tidur Tidak Teratur', 'Tidur yang tidak teratur atau pola tidur yang berubah-ubah.', 1),
+('G-33', 'Gangguan Konsentrasi Akibat Tidur', 'Gangguan konsentrasi dan produktivitas akibat kurang tidur.', 1);
